@@ -29,5 +29,6 @@ public class four {
             System.out.println("온도는 "+temperature+"도이다.");
 
             sc.close();
+            //수정본
         }
 }

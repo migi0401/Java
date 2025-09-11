@@ -21,5 +21,6 @@ public class one {
         }
 
         sc.close();
+        //수정본
     }
 }

@@ -47,5 +47,6 @@ public class three {
         }
 
         sc.close();
+        //수정본
     }
 }
