@@ -1,4 +1,4 @@
-### ![](https://img.shields.io/badge/Java-007396?style=flat&logo=OpenJDK&logoColor=white") Java
+###Java ![](https://img.shields.io/badge/Java-007396?style=flat&logo=OpenJDK&logoColor=white")
 ***
 자바 수업 시간에 배운 개념과 실습 문제들을 정리한 공간입니다.
 
