@@ -5,7 +5,7 @@
 개념 -> 문제 적용 -> 코드 구현
 
 ## 🗓️ 자바 이론
-#[1. 자바 입문](https://devlog111.tistory.com/1)
+## [1. 자바 입문](https://devlog111.tistory.com/1)
 : 자바 개발과 실행 환경
 
 
