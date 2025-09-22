@@ -1,0 +1,23 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class W4P4{
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+
+        boolean visited=true;
+
+        while(visited)
+        try {
+            System.out.print("곱하고자 하는 두 수 입력>>");
+            int input1 = scanner.nextInt();
+            int input2 = scanner.nextInt();
+            System.out.println(input1 + "x" + input2 + "=" + input1*input2);
+            visited=false;
+        }catch (InputMismatchException e){
+            System.out.println("실수는 입력하면 안됩니다.");
+            scanner.nextLine();
+        }
+        scanner.close();
+    }
+}
