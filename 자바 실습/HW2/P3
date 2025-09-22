@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class W3P3 {
+    public static boolean checkDuplication(int n[], int size, int m){
+        for(int i=0;i<size;i++){
+            if(n[i]==m){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+        System.out.print("정수 몇 개 저장하시겠습니까>>");
+
+        Scanner sc = new Scanner(System.in);
+        int num=sc.nextInt();
+
+        int n[] = new int[num];
+
+        for(int i=0;i<n.length;i++){
+            while(true){
+                int m=(int)(Math.random()*101);
+
+                boolean isDup=checkDuplication(n,i,m);
+                if(isDup==false){
+                    n[i]=m;
+                    break;
+                }
+            }
+        }
+
+        int sum=0;
+        System.out.print("랜덤한 정수들...");
+        for(int k:n){
+            System.out.print(k+" ");
+            sum+=k;
+        }
+        System.out.println("\n평균은 " + ((double)sum) / n.length);
+
+        sc.close();
+    }
+}
